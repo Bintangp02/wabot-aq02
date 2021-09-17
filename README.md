@@ -2,6 +2,13 @@
 
 Simple WhatsApp Bot
 
+***Cara Deploy Di Herokuapp***
+**Clone repositori to termux**
+**Ikuti langkah langkah atau [klik link ini](https://youtu.be/AohjSV5wzXs)**
+**Habis itu Scan Qr yang ada di termux**
+**Pindahkan sesion.json ke cd /Sdcard**
+**Upload di sini**
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
 
 ## FOR TERMUX/UBUNTU/SSH USER
