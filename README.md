@@ -14,7 +14,7 @@ Simple WhatsApp Bot
 
 **Upload di sini**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rasssya76/wabot-aq02/tree/patch-1)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
