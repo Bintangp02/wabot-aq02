@@ -1,8 +1,8 @@
 {
   "users": {
     "6289647417373@s.whatsapp.net": {
-      "exp": 106,
-      "limit": 9,
+      "exp": 9999999,
+      "limit": 9999,
       "lastclaim": 0,
       "registered": false,
       "name": "Bintangp02",
@@ -21,21 +21,6 @@
       "lastclaim": 0,
       "registered": false,
       "name": "BPBOT",
-      "age": -1,
-      "regTime": -1,
-      "afk": -1,
-      "afkReason": "",
-      "banned": false,
-      "level": 0,
-      "role": "Beginner",
-      "autolevelup": false
-    },
-    "6281804832728@s.whatsapp.net": {
-      "exp": 0,
-      "limit": 10,
-      "lastclaim": 0,
-      "registered": false,
-      "name": "KingofChromosome🇲🇨🏴‍☠️🇦🇱🇯🇪🇳🇵🏴‍☠️🇲🇨🔱🇵🇲",
       "age": -1,
       "regTime": -1,
       "afk": -1,
