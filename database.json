@@ -1,0 +1,109 @@
+{
+  "users": {
+    "6289647417373@s.whatsapp.net": {
+      "exp": 106,
+      "limit": 9,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Bintangp02",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "16146810651@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "BPBOT",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    },
+    "6281804832728@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "KingofChromosome🇲🇨🏴‍☠️🇦🇱🇯🇪🇳🇵🏴‍☠️🇲🇨🔱🇵🇲",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "role": "Beginner",
+      "autolevelup": false
+    }
+  },
+  "chats": {
+    "6289647417373@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false
+    },
+    "6285719194581-1622425674@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false
+    }
+  },
+  "stats": {
+    "menu.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1631590196971,
+      "lastSuccess": 1631590196971
+    },
+    "speed.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1631590264146,
+      "lastSuccess": 1631590264146
+    },
+    "play.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1631536881919,
+      "lastSuccess": 1631536881919
+    },
+    "donasi.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1631590271978,
+      "lastSuccess": 1631590271978
+    },
+    "broadcast.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1631590328481,
+      "lastSuccess": 1631590328481
+    }
+  },
+  "msgs": {},
+  "sticker": {}
+}
