@@ -2,17 +2,29 @@
 
 Simple WhatsApp Bot
 
-***Cara Deploy Di Herokuapp***
+## `HEROKU`
 
-**Clone repositori to termux**
+1. Add Buildpack<br/>
 
-**Ikuti langkah langkah atau [klik link ini](https://youtu.be/AohjSV5wzXs)**
+```
+> nodeajs
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+```
+2. Delpoy<br/>
 
-**Habis itu Scan Qr yang ada di termux**
+[`Click Here For Tutorial`](https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.youtube.com/channel/UCraNp4tbaE3teFS0-TRpLFQ&ved=2ahUKEwiw756EkpfzAhXHZCsKHf4iCWkQjjh6BAgHEAE&usg=AOvVaw3pb5OOdaYW6_Y-MH81xIzN)<br>
 
-**Pindahkan sesion.json ke cd /Sdcard**
+3. Change Dyno<br/>
 
-**Upload di sini**
+<p align="center">
+  <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://m.youtube.com/channel/UCraNp4tbaE3teFS0-TRpLFQ&ved=2ahUKEwiw756EkpfzAhXHZCsKHf4iCWkQjjh6BAgHEAE&usg=AOvVaw3pb5OOdaYW6_Y-MH81xIzN"><img src="https://a.top4top.io/p_20888ybra1.jpg" />
+</p>
+
+
+## `CHANGE SESSION`
+
+1. Put your session here<br/>
+*
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rasssya76/wabot-aq02/tree/patch-1)
 
