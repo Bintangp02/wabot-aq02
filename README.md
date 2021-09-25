@@ -4,6 +4,13 @@ Simple WhatsApp Bot
 
 ## `HEROKU`
 
+**langkah pertama**
+*1.buat akun atau login diheroku!
+*2.ikuti angkah langkah dari web heroku
+*3.[buat app atau klik tulisan ini](https://dashboard.heroku.com/new-app)
+*4.nama kan app tersebut contoh wabot-aq123
+*5.setelahnya ikuti penjelasan di bawah ini!!
+
 1. Add Buildpack<br/>
 
 ```
@@ -26,6 +33,14 @@ Simple WhatsApp Bot
 1. Put your session here<br/>
 *
 
+## `CHANGE SETING`
+
+1. [nama owner + no hp](https://github.com/Bintangp02/wabot-aq02/blob/master/plugins/creator.js)
+2. [merubah tempilan menu](https://github.com/Bintangp02/wabot-aq02/blob/master/plugins/menu.js)
+3. [merubah owner dan user prem](https://github.com/Bintangp02/wabot-aq02/blob/master/config.js)
+  **note : edit di repository milik kalian sendiri**
+  
+  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rasssya76/wabot-aq02/tree/patch-1)
 
 ## FOR TERMUX/UBUNTU/SSH USER
