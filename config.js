@@ -1,4 +1,4 @@
-global.owner = ['6289647417373'] // nomer anda
+global.owner = ['6285731749158'] // nomer anda
 global.mods = [] // Want some help?
 global.prems = ['6289999999999'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
