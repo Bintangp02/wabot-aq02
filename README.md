@@ -17,6 +17,7 @@ Simple WhatsApp Bot
 ```
 > nodeajs
 > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+> https://github.com/steeple-org/heroku-buildpack-imagemagick
 ```
 2. Delpoy<br/>
 
