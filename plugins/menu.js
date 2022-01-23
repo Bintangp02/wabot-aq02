@@ -30,27 +30,39 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
-│ Hai, %name!
-│
-│ Tersisa *%limit Limit*
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
-│ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
-│
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
-╰────
-%readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
+╭═══ *〘 %me 〙*
+┊
+║ ┅ ๑————————————๑
+║┊
+║┊   _*⌬ Bintang-bot Menu!*_
+║┊
+║┊ ⍚ *Name:* %name
+║┊ ⍚ *Level:* %level (%exp / %maxexp)
+║┊ ⍚ *EXP:* %totalexp XP
+║┊ ⍚ *Limit:* %limit
+║┊
+║┊ ⍚ *Hari:* %week %weton
+║┊ ⍚ *Tanggal:* %date
+║┊ ⍚ *Tanggal Islam:* %dateIslamic
+║┊ ⍚ *Waktu:* %time WIB
+║┊
+║┊ ⍚ *Uptime:* _%uptime_ (%muptime)
+║┊ ⍚ *Database:* %rtotalreg of %totalreg
+║┊ ⍚ *Owner:* _https://bit.ly/Bintangp02_
+╰═ ┅ ═══════
+%readmore
+╭═══ *〘 Thanks To 〙*
+║ ┅ ๑————————————๑
+║┊
+║┊ ➥ _Nurutomo_
+║┊ ➥ _Bintangp02_
+║┊ ➥ _Unx21_
+║┊ ➥ _Dan Kawan-kawan_
+╰═ ┅ ═══════
+`.trimStart(),
+  header: '╭═══ *〘 %category 〙*\n║ ┅ ๑————————————๑',
+  body: '║┊ ⌲  _%cmd_ %islimit %isPremium',
+  footer: '╰═ ┅ ═══════\n',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
@@ -59,10 +71,6 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
-    let wabot-aq02 = './src/photo/JdA.png'
-    let bp02 = 'https://github.com/bintangp02'
-    //let premium = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-    let tnbot = (await conn.getFile(await conn.getProfilePicture(m.fromMe))).data.toString('base64')
     let { exp, limit, level, role } = global.db.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let name = conn.getName(m.sender)
@@ -156,24 +164,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    //conn.reply(m.chat, text.trim(), m)
-    await conn.sendFile(m.chat, wabot-aq02, 'JdA.png', text.trim(), { 
-      key: { 
-        remoteJid: 'status@broadcast', 
-        participant: '0@s.whatsapp.net', 
-        fromMe: false 
-      }, 
-      message: { 
-        "imageMessage": { 
-          "mimetype": "image/jpeg", 
-          "caption": `${conn.user.name} Verified Bot`, 
-          "jpegThumbnail": tnbot
-        } 
-      }
-    }, m, { 
-      //thumbnail: tnbot, 
-      contextInfo: { 
-        mentionedJid: [m.sender]} } )
+    conn.reply(m.chat, text.trim(), m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
