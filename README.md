@@ -15,7 +15,7 @@ Simple WhatsApp Bot
 1. Add Buildpack<br/>
 
 ```
-> nodeajs
+> nodejs
 > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 > https://github.com/steeple-org/heroku-buildpack-imagemagick
 ```
@@ -53,8 +53,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
+git clone https://github.com/bintangp02/wabot-aq02
+cd wabot-aq02
 npm install
 npm update
 ```
