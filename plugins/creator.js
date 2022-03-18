@@ -1,7 +1,7 @@
 function handler(m) {
   // Ini cuma contoh, jgn di uncomment -_-
-  // F this.sendContact(m.chat, '62815158600891', 'Nurutomo', m)
-  this.sendContact(m.chat, '6289647417373', 'Bintangp02', m)
+  // F this.sendContact(m.chat, '6283869803330', 'VERDI', m)
+  this.sendContact(m.chat, '6283854994006', 'CWEK GW', m)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
