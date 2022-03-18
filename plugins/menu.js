@@ -32,9 +32,9 @@ const defaultMenu = {
   before: `
 ╭═══ *〘 %me 〙*
 ┊
-║ ┅ ๑————————————๑
+║ ┅ ︻̷▄๑————————————๑▄︻̷̿
 ║┊
-║┊   _*⌬ Bintang-bot Menu!*_
+║┊   _*⌬ VERDI-bot Menu!*_
 ║┊
 ║┊ ⍚ *Name:* %name
 ║┊ ⍚ *Level:* %level (%exp / %maxexp)
@@ -57,7 +57,7 @@ const defaultMenu = {
 ║┊ ➥ _Nurutomo_
 ║┊ ➥ _Bintangp02_
 ║┊ ➥ _Unx21_
-║┊ ➥ _Dan Kawan-kawan_
+║┊ ➥ _VERDIBOTZ_
 ╰═ ┅ ═══════
 `.trimStart(),
   header: '╭═══ *〘 %category 〙*\n║ ┅ ๑————————————๑',
